@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -23,6 +24,7 @@
       <div class="nav-links" id="navLinks">
         <a href="#about">À propos</a>
         <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
         <a href="#experience">Expériences</a>
         <a href="#education">Formation</a>
         <a href="#contact">Contact</a>
@@ -40,10 +42,12 @@
           Étudiant en cycle ingénieur en sécurité numérique à l’ESAIP à Angers, avec un intérêt marqué pour les réseaux,
           l’administration système Linux et le support informatique.
         </p>
+
         <div class="hero-actions">
           <a href="#contact" class="btn btn-primary">Me contacter</a>
-          <a href="CV_Al_Hassane_Fofana.pdf" class="btn btn-secondary" target="_blank" rel="noopener">Voir / télécharger mon CV</a>
+          <a href="CV_Al_Hassane_Fofana.pdf" class="btn btn-secondary" target="_blank" rel="noopener">Télécharger mon CV</a>
         </div>
+
         <div class="hero-infos">
           <div>
             <span>Localisation</span>
@@ -87,6 +91,7 @@
         <p>Présentation</p>
         <h3>À propos</h3>
       </div>
+
       <div class="about-grid">
         <div class="glass-card">
           <p>
@@ -95,6 +100,7 @@
             et évoluer dans un environnement exigeant et stimulant.
           </p>
         </div>
+
         <div class="glass-card qualities">
           <h4>Points forts</h4>
           <ul>
@@ -114,31 +120,94 @@
         <p>Expertise</p>
         <h3>Compétences techniques</h3>
       </div>
+
       <div class="skills-grid">
         <article class="glass-card">
           <h4>Programmation</h4>
           <div class="tags">
-            <span>C</span><span>C++</span><span>Python</span><span>MATLAB</span><span>HTML</span><span>CSS</span><span>Java</span><span>JavaScript</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>Python</span>
+            <span>MATLAB</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>JavaScript</span>
           </div>
         </article>
+
         <article class="glass-card">
           <h4>Systèmes d’exploitation</h4>
           <div class="tags">
-            <span>Linux (Ubuntu)</span><span>Linux (Debian)</span><span>Windows</span>
+            <span>Linux (Ubuntu)</span>
+            <span>Linux (Debian)</span>
+            <span>Windows</span>
           </div>
         </article>
+
         <article class="glass-card">
           <h4>Réseaux</h4>
           <div class="tags">
-            <span>Configuration réseau</span><span>VLAN</span><span>Segmentation réseau</span><span>Inter-VLAN</span>
+            <span>Configuration réseau</span>
+            <span>VLAN</span>
+            <span>Segmentation réseau</span>
+            <span>Inter-VLAN</span>
           </div>
         </article>
+
         <article class="glass-card">
           <h4>Outils</h4>
           <div class="tags">
-            <span>Visual Studio Code</span><span>Code::Blocks</span><span>Dev-C++</span>
+            <span>Visual Studio Code</span>
+            <span>Code::Blocks</span>
+            <span>Dev-C++</span>
           </div>
         </article>
+      </div>
+    </section>
+
+    <section class="section container reveal" id="projects">
+      <div class="section-title">
+        <p>Réalisations</p>
+        <h3>Projets</h3>
+      </div>
+
+      <div class="project-showcase glass-card">
+        <div class="project-text">
+          <p class="project-label">Projet cybersécurité</p>
+          <h4>Analyse d’un formulaire d’authentification web face aux mots de passe faibles</h4>
+          <p>
+            Mini projet personnel réalisé dans un environnement local contrôlé pour analyser le fonctionnement
+            d’une attaque par dictionnaire sur un système de connexion web.
+          </p>
+          <p>
+            L’objectif était de reproduire un scénario de test afin d’observer comment des identifiants faibles
+            peuvent être compromis lorsque des protections adaptées ne sont pas mises en place.
+          </p>
+
+          <div class="tags">
+            <span>Kali Linux</span>
+            <span>Hydra</span>
+            <span>Crunch</span>
+            <span>PHP</span>
+            <span>Authentification web</span>
+            <span>Cybersécurité</span>
+          </div>
+
+          <ul class="project-points">
+            <li>Création d’un environnement de test local avec une page d’authentification web.</li>
+            <li>Observation du comportement du serveur PHP local pendant les requêtes et connexions.</li>
+            <li>Simulation de tentatives automatisées avec Hydra sur un formulaire d’authentification local.</li>
+            <li>Mise en évidence de l’importance des mots de passe robustes, de la limitation des tentatives et du MFA.</li>
+          </ul>
+        </div>
+
+        <div class="project-gallery">
+          <img src="projet1.jpeg" alt="Serveur PHP local" />
+          <img src="projet2.jpeg" alt="Logs du serveur web local" />
+          <img src="projet3.jpeg" alt="Test local avec Hydra" />
+          <img src="projet4.jpeg" alt="Generation dictionnaire avec Crunch" />
+        </div>
       </div>
     </section>
 
@@ -147,6 +216,7 @@
         <p>Parcours</p>
         <h3>Expériences</h3>
       </div>
+
       <div class="timeline">
         <article class="timeline-item glass-card">
           <div class="timeline-date">2024 – 2025</div>
@@ -190,22 +260,26 @@
         <p>Études</p>
         <h3>Formation</h3>
       </div>
+
       <div class="education-grid">
         <article class="glass-card">
           <span class="edu-year">2025 – présent</span>
           <h4>ESAIP – École d’ingénieurs, Angers</h4>
           <p>Cycle ingénieur – Sécurité numérique</p>
         </article>
+
         <article class="glass-card">
           <span class="edu-year">2023 – 2025</span>
           <h4>Université Euromed de Fès, Maroc</h4>
           <p>Classe préparatoire – Ingénierie digitale & Intelligence artificielle</p>
         </article>
+
         <article class="glass-card">
           <span class="edu-year">2022 – 2023</span>
           <h4>Université Internationale de Cocody – Côte d’Ivoire</h4>
           <p>BTS Finance, Comptabilité et Gestion des entreprises</p>
         </article>
+
         <article class="glass-card">
           <span class="edu-year">2021 – 2022</span>
           <h4>Baccalauréat scientifique – Série D</h4>
@@ -234,7 +308,10 @@
             <h3>Centres d’intérêt</h3>
           </div>
           <div class="tags">
-            <span>Football</span><span>Lecture</span><span>Animés</span><span>Cuisine</span>
+            <span>Football</span>
+            <span>Lecture</span>
+            <span>Animés</span>
+            <span>Cuisine</span>
           </div>
         </article>
       </div>
@@ -249,10 +326,26 @@
             Je recherche une alternance en cybersécurité, réseaux informatiques ou administration Linux à partir de septembre 2026.
           </p>
         </div>
+
         <div class="contact-actions">
           <a class="btn btn-primary" href="mailto:fofanahassane06@gmail.com">Envoyer un email</a>
-          <a class="btn btn-secondary" href="CV_Al_Hassane_Fofana.pdf" target="_blank" rel="noopener">Voir / télécharger mon CV</a>
+          <a class="btn btn-secondary" href="CV_Al_Hassane_Fofana.pdf" target="_blank" rel="noopener">Télécharger mon CV</a>
           <a class="btn btn-secondary" href="tel:+33745940459">Appeler</a>
+        </div>
+
+        <div class="hero-infos contact-infos">
+          <div>
+            <span>Email</span>
+            <strong><a href="mailto:fofanahassane06@gmail.com">fofanahassane06@gmail.com</a></strong>
+          </div>
+          <div>
+            <span>Téléphone</span>
+            <strong><a href="tel:+33745940459">+33 7 45 94 04 59</a></strong>
+          </div>
+          <div>
+            <span>Portfolio</span>
+            <strong><a href="https://fofanahassane06-prog.github.io/portfolio-Hassane/" target="_blank" rel="noopener">Voir le site</a></strong>
+          </div>
         </div>
       </div>
     </section>
