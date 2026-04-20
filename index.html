@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -162,6 +161,8 @@
             <span>Visual Studio Code</span>
             <span>Code::Blocks</span>
             <span>Dev-C++</span>
+            <span>Nmap</span>
+            <span>Metasploit</span>
           </div>
         </article>
       </div>
@@ -207,7 +208,72 @@
           <img src="projet1.jpeg" alt="Serveur PHP local" />
           <img src="projet2.jpeg" alt="Logs du serveur web local" />
           <img src="projet3.jpeg" alt="Test local avec Hydra" />
-          <img src="projet4.jpeg" alt="Generation dictionnaire avec Crunch" />
+          <img src="projet4.jpeg" alt="Génération de dictionnaire avec Crunch" />
+        </div>
+      </div>
+
+      <div class="project-showcase glass-card">
+        <div class="project-text">
+          <p class="project-label">Projet cybersécurité</p>
+          <h4>Analyse et sécurisation d’un système</h4>
+
+          <p>
+            Dans ce projet, j’ai réalisé un laboratoire pratique en cybersécurité afin de comprendre
+            les différentes étapes d’une attaque et les moyens de s’en protéger.
+          </p>
+
+          <p>
+            J’ai commencé par analyser une machine cible avec Nmap pour identifier les ports ouverts
+            et les services actifs.
+          </p>
+
+          <p>
+            Ensuite, j’ai exploité une vulnérabilité connue du service FTP (vsFTPd 2.3.4) à l’aide de
+            Metasploit, ce qui m’a permis d’obtenir un accès root au système.
+          </p>
+
+          <p>
+            Après la compromission, j’ai effectué une phase de post-exploitation afin d’explorer le système
+            (fichiers, utilisateurs, environnement) et comprendre l’impact réel de l’attaque.
+          </p>
+
+          <p>
+            Enfin, j’ai mis en place des mesures de sécurisation en utilisant iptables pour bloquer certains
+            ports sensibles et réduire la surface d’attaque. Un nouveau scan a permis de vérifier l’efficacité
+            de ces actions.
+          </p>
+
+          <p>
+            Ce projet m’a permis de mieux comprendre le cycle complet d’une attaque : analyser, exploiter
+            et sécuriser.
+          </p>
+
+          <div class="tags">
+            <span>Kali Linux</span>
+            <span>Nmap</span>
+            <span>Metasploit</span>
+            <span>vsFTPd 2.3.4</span>
+            <span>Post-exploitation</span>
+            <span>iptables</span>
+            <span>Analyse réseau</span>
+            <span>Sécurisation système</span>
+          </div>
+
+          <ul class="project-points">
+            <li>Analyse d’une machine cible pour identifier les ports ouverts et les services actifs.</li>
+            <li>Exploitation contrôlée d’une vulnérabilité FTP avec Metasploit.</li>
+            <li>Obtention d’un accès root puis exploration du système compromis.</li>
+            <li>Observation de l’impact réel d’une attaque sur les fichiers, utilisateurs et services.</li>
+            <li>Mise en place de règles iptables pour limiter l’exposition de certains ports.</li>
+            <li>Vérification de l’efficacité des mesures de protection avec un nouveau scan.</li>
+          </ul>
+        </div>
+
+        <div class="project-gallery">
+          <img src="projet2-nmap.jpeg" alt="Scan Nmap de la machine cible" />
+          <img src="projet2-metasploit.jpeg" alt="Utilisation de Metasploit pour l’exploitation" />
+          <img src="projet2-root.jpeg" alt="Post-exploitation avec accès root sur la machine cible" />
+          <img src="projet2-nmap2.jpeg" alt="Scan après sécurisation du système" />
         </div>
       </div>
     </section>
